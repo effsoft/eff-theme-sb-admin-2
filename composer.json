@@ -1,0 +1,48 @@
+{
+  "name": "effsoft/eff-theme-sb-admin-2",
+  "description": "",
+  "keywords": ["effsoft","eff"],
+  "homepage": "https://github.com/effsoft/eff-theme-sb-admin-2",
+  "type": "eff",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2.0",
+    "yiisoft/yii2": "~2.0.14",
+    "bower-asset/startbootstrap-sb-admin-2": "~v4.0.2",
+    "effsoft/eff": "dev-master"
+  },
+  "require-dev": {
+
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "autoload" : {
+    "psr-4" : {
+      "effsoft\\eff\\theme\\sbadmin2\\" : "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "effsoft\\eff\\theme\\sbadmin2\\" : "src/"
+    }
+  },
+  "repositories": {
+    "eff":{
+      "type": "path",
+      "url": "../eff"
+    },
+    "asset-packagist":{
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    "packagist":{
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  }
+}

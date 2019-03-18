@@ -1,0 +1,6 @@
+html,body{
+    height:100%;
+}
+.help-block,.form_errors li{
+    color:#e74a3b;
+}
