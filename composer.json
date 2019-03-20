@@ -15,12 +15,6 @@
   "require-dev": {
 
   },
-  "config": {
-    "process-timeout": 1800,
-    "fxp-asset": {
-      "enabled": false
-    }
-  },
   "autoload" : {
     "psr-4" : {
       "effsoft\\eff\\theme\\sbadmin2\\" : "src/"
@@ -31,10 +25,20 @@
       "effsoft\\eff\\theme\\sbadmin2\\" : "src/"
     }
   },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
   "repositories": {
     "eff":{
       "type": "path",
       "url": "../eff"
+    },
+    "packagist-image":{
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
     },
     "asset-packagist":{
       "type": "composer",

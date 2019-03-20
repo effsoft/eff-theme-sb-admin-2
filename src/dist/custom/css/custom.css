@@ -1,6 +1,10 @@
 html,body{
     height:100%;
+    font-family: Verdana, Helvetica, "Microsoft YaHei", Arial;
 }
 .help-block,.form_errors li{
     color:#e74a3b;
+}
+.sidebar .nav-item .nav-link{
+    padding:.5rem;
 }
