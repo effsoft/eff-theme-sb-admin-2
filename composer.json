@@ -26,6 +26,7 @@
     }
   },
   "config": {
+    "vendor-dir": "../vendor/eff-theme-sb-admin-2",
     "process-timeout": 1800,
     "fxp-asset": {
       "enabled": false
